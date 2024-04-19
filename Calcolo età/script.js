@@ -3,9 +3,9 @@
 // l’età della persona
 // quanti anni sono necessari per raggiungere i 100
 
-const annoCorrente = 2023;
+const annoCorrente= parseInt(prompt("Inserisci l'anno corrente"));
 
-const annoDiNascita = parseInt(prompt("Inserisci la tua data di nascita:"));
+const annoDiNascita = parseInt(prompt("Inserisci il tuo anno di nascita:"));
 
 
 function eta(annoDiNascita) {

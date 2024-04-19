@@ -22,3 +22,5 @@ console.log("Lista della spesa:");
 for (const articolo of listaSpesa) {
     console.log(`${articolo.nome} - Quantità: ${articolo.quantita}`);
 }
+
+
